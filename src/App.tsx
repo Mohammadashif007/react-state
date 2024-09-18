@@ -1,9 +1,13 @@
+import CounterWithClass from "./component/counterWithClassComponent";
+import CounterWithFuncComponent from "./component/counterWithFuncComponent";
+
 
 
 function App() {
     return (
         <>
-            <h1 className="text-2xl">Hello world!</h1>
+            {/* <CounterWithClass></CounterWithClass> */}
+            <CounterWithFuncComponent></CounterWithFuncComponent>
         </>
     );
 }
